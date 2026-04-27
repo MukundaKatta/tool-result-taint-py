@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Builds
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Tooling
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Local npm extraction (used to read JS source for porting)
+_npm_src/
+*.tgz
+
+# Local helper script wrapper (npm-run-based git/test bridge for sandbox)
+package.json
+package-lock.json
+node_modules/
